@@ -26,4 +26,4 @@ To run the password manager locally:
 
 1. **Clone the repository**:
    ```bash
-   [git clone https://github.com/your-username/password-manager.git](https://github.com/ThatVolt/PassX)
+   git clone https://github.com/your-username/password-manager.git
