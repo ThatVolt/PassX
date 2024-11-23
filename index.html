@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Manager</h1>
+
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search by service"
+          onkeyup="searchPasswords()"
+        />
+      </div>
+
+      <!-- Form to add new password -->
+      <div class="form-container">
+        <input type="text" id="service" placeholder="Service Name" />
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <div id="passwordStrength" class="password-strength"></div>
+        <button onclick="addPassword()">Add Password</button>
+      </div>
+
+      <!-- Button to view all saved passwords -->
+      <button class="view-btn" onclick="viewPasswords()">
+        View All Passwords
+      </button>
+
+      <!-- List of saved passwords -->
+      <div id="passwordList" class="password-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
