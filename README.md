@@ -16,14 +16,10 @@ A simple password manager built with **HTML**, **CSS**, and **JavaScript** that 
 
 Check out the live demo: [Password Manager Demo](#)
 
-## Screenshots
-
-![Password Manager Screenshot](./screenshots/screenshot.png)
-
 ## Getting Started
 
 To run the password manager locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/password-manager.git
+   git clone https://github.com/your-username/PassX.git
